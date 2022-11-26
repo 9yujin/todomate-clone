@@ -10,21 +10,22 @@ const initialState: IFriend[] = [
   },
   {
     userId: 'user2',
-    name: '경민',
+    name: '유진',
     profileImage: 'https://i.ibb.co/MgmDcz1/1021805078815985664.webp',
     statusMessage: '주니어 PM이 되기 위한 노력',
   },
   {
     userId: 'user3',
-    name: '세환',
-    profileImage: '',
-    statusMessage: 'user3',
+    name: '찬진',
+    profileImage:
+      'https://i.ibb.co/dmxdSrf/88cc8c7be1594a83bbf7e39dbf21d5de.webp',
+    statusMessage: '나는 치타다',
   },
   {
     userId: 'user4',
-    name: '민준',
+    name: '수진',
     profileImage: '',
-    statusMessage: 'user4',
+    statusMessage: '수진이 투두메이트 안하니',
   },
 ];
 

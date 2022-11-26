@@ -36,28 +36,28 @@ const TodoIconSvg = ({ colors }: TodoIconSvgProps) => {
         cy="6.46154"
         r="6.46154"
         fill={fill[0]}
-        fillOpacity={'0.9'}
+        fillOpacity={colors.length > 1 ? '0.9' : '1'}
       />
       <circle
         cx="6.46154"
         cy="14.5387"
         r="6.46154"
         fill={fill[1]}
-        fillOpacity={'0.9'}
+        fillOpacity={colors.length > 1 ? '0.9' : '1'}
       />
       <circle
         cx="14.5387"
         cy="14.5387"
         r="6.46154"
         fill={fill[2]}
-        fillOpacity={'0.9'}
+        fillOpacity={colors.length > 1 ? '0.9' : '1'}
       />
       <circle
         cx="14.5387"
         cy="6.46154"
         r="6.46154"
         fill={fill[3]}
-        fillOpacity={'0.9'}
+        fillOpacity={colors.length > 1 ? '0.9' : '1'}
       />
     </svg>
   );
